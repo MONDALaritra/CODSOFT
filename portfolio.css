@@ -1,0 +1,463 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #180f1c;
+}
+.portnav{
+    
+    width:100%;
+    height:80px;
+   
+   
+}
+.menuitem{
+    float:right;
+    
+}
+
+.name{
+    margin:30px;
+    float:left;
+    color:violet;
+    font-size:20px;
+
+}
+.menuitem ul li{
+    display: inline-block;
+    margin:30px 35px 0px 30px;
+
+
+}
+
+.menuitem ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+
+.menuitem ul li a:hover,
+.menuitem ul li a.active{
+    color:#b134eb;
+    transform: translateY(-5px);
+    
+}
+.details{
+   
+    border-top:10px solid white;
+}
+.about{
+    float:left;
+    width:40%;
+    margin: 80px -200px;
+}
+
+.about h1{
+    font-size: 60px;
+    margin:10px;
+    color:white;
+}
+
+.about p{
+    font-size: 25px;
+    color:gray;
+    margin:15px;
+    text-align: justify;
+    
+}
+
+.icons{
+    margin:15px;
+}
+
+.icons {
+    font-size: 40px;
+    margin:20px;
+    
+}
+
+
+ #git{
+    color:black;
+    margin:10px;
+    background-color:white;
+    border:5px solid black;
+    border-radius: 100%;
+}
+ #git:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+ #go{
+    color:red;
+    margin:10px;
+    background-color: black;
+    border:5px solid black;
+    border-radius: 100%;
+}
+ #go:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+ #fb{
+    color:blue;
+    margin:10px;
+    background-color: black;
+    border:5px solid black;
+    border-radius: 100%;
+}
+ #fb:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+ #li{
+    color:blue;
+    margin:10px;
+    background-color: black;
+    border:5px solid black;
+    border-radius: 100%;
+}
+
+ #li:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+ #in{
+    color:red;
+    margin:10px;
+    background-color: black;
+    border:5px solid black;
+    border-radius: 100%;
+}
+
+ #in:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+.about button{
+    width:250px;
+    height:50px;
+    margin:20px;
+    cursor: pointer;
+    background-color:#b134eb;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-size:18px;
+    font-weight: 600px;
+}
+
+.about button:hover{
+    opacity: 0.5;
+    transition: all 0.3s ease-in;
+    transform: translateY(-10px);
+   
+}
+
+.photo{
+    width:50%;
+    float:right;
+    
+}
+
+.photo img{
+    margin:70px 100px;
+    height: 500px;
+    width:500px;
+    border-radius: 50%;
+    border:4px solid violet;
+
+}
+
+.skills .image{
+    float:left;
+    width:50%;
+    
+} 
+
+.skills .image img{
+    width:800px;
+    height:600px;
+}
+
+.skills .skillsmine{
+    width:40%;
+    float:right;
+    margin-right:100px;
+}
+
+.skills .skillsmine h1{
+    color:white;
+    font-size: 40px;
+    font-weight:500px;
+    margin: 20px 10px;
+}
+
+.skills .skillsmine p{
+    color:white;
+    font-size:19.5px;
+    margin:15px;
+    text-align: justify;
+}
+
+.skills .skillsmine #html{
+    font-size:60px;
+    margin:25px;
+}
+
+
+.skills .skillsmine #css{
+    font-size:60px;
+    margin:25px;
+}
+
+.skills .skillsmine #js{
+    font-size:60px;
+    margin:25px;
+}
+.skills .skillsmine img{
+    width:60px;
+    height: 60px;
+    margin:25px;
+}
+.skills .skillsmine ul li{
+    color:white;
+    list-style: none;
+    font-size: 18px;
+    text-align:justify;
+    margin:10px;
+    line-height: 2rem;
+}
+
+.projects h1{
+    color:white;
+    margin-top:90%;
+   font-size: 40px;
+   font-weight: 600px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.projects .project-desc{
+    width:40%;
+    float:left;
+}
+
+.projects .project-desc  h2{
+    margin:10px;
+    font-size: 25px;
+}
+.projects .project-desc .first-project {
+    border:2px solid purple;
+    background-color: #b471d1;
+    border-radius:20px;
+    padding:50px;
+    margin-left:20%;
+    margin-top:15px;
+    height:360px;
+    font-size: 20px;
+    width:600px; 
+   
+}
+.projects .project-desc .second-project {
+    border:2px solid purple;
+    background-color: #b471d1;
+    border-radius:20px;
+    padding:50px;
+    margin-left:20%;
+    margin-top:15px;
+    height:360px;
+    font-size: 20px;
+    width:600px;
+    line-break: 2rem;
+   
+}
+.projects .project-desc .third-project {
+    border:2px solid purple;
+    background-color: #b471d1;
+    border-radius:20px;
+    padding:50px;
+    margin-left:20%;
+    margin-top:15px;
+    height:360px;
+    font-size: 20px;
+    width:600px;
+    line-break: 2rem;
+   
+}
+
+.projects .video-project{
+    width:50%;
+    float:right;
+}
+.projects .video-project .first-video{
+    border:4px solid purple;
+    border-radius: 20px;
+    padding:30px;
+    width:600px;
+    height:360px;
+    background-color: #b471d1;
+    margin-top:15px;
+}
+.projects .video-project .first-video video{
+    height:100%;
+    width:100%;
+   
+    margin:auto;
+}
+.projects .video-project .second-video{
+    border:4px solid purple;
+    border-radius: 20px;
+    padding:30px;
+    width:600px;
+    height:360px;
+    background-color: #b471d1;
+    margin-top:15px;
+}
+.projects .video-project .second-video video{
+    height:100%;
+    width:100%;
+   
+    margin:auto;
+}
+.projects .video-project .third-video{
+    border:4px solid purple;
+    border-radius: 20px;
+    padding:30px;
+    width:600px;
+    height:360px;
+    background-color: #b471d1;
+    margin-top:15px;
+}
+.projects .video-project .third-video video{
+    height:100%;
+    width:100%;
+   
+    margin:auto;
+}
+.contact{
+    height:600px;
+    margin-top:80%;
+}
+.contact .details-card{
+    margin:auto;
+    border:10px solid rgb(234, 146, 202);
+    width:800px;
+    height:500px;   
+    background-color: #b134eb;
+    padding:20px;
+    border-radius: 20px;
+}
+
+.contact .details-card .id-details{
+    float:left;
+    width:50%;
+    margin-top:10%;
+    line-height: 2rem;
+    background-color:black;
+    color:white;
+    padding:25px;
+    border-radius: 20px;
+}
+.contact .details-card .image{
+    float:right;
+    width:50%;
+   
+}
+
+.contact .details-card .image img{
+    height:450px;
+    width:350px;
+    margin-top:-35px;
+    margin-left:20px;
+    border-radius: 30px;
+}
+
+footer{
+    text-align: center;
+    margin:5px;
+    background-color: #b471d1;
+    width:auto;
+    height:50px;
+    
+   
+}
+footer h2{
+    margin-bottom:-20px;
+    
+}
+
+#git-f{
+    color:black;
+    margin:15px;
+    font-size: 30px;
+    border-radius: 100%;
+    float:right;
+    margin-top:-3px;
+}
+ #git-f:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+ #go-f{
+    color:red;
+    margin:15px;
+    font-size: 30px;
+    border-radius: 100%;
+    float:right;
+    margin-top:-3px;
+}
+ #go-f:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+ #fb-f{
+    color:blue;
+    margin:15px;
+    font-size: 30px;
+    float:right;
+    border-radius: 100%;
+    margin-top:-3px;
+}
+ #fb-f:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+ #li-f{
+    color:blue;
+    margin:15px;
+    font-size: 30px;
+    border-radius: 100%;
+    float:right;
+    margin-top:-3px;
+}
+
+ #li-f:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+ #in-f{
+    color:red;
+    margin:15px;
+    float:right;
+    background-color:transparent;
+    font-size: 30px;
+    border-radius: 100%;
+    margin-top:-3px;
+}
+
+ #in-f:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
