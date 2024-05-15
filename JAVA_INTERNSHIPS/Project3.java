@@ -4,7 +4,7 @@ class User {
 	public String name="Aritra Mondal";
 	public String acc_type="savings";
 	public double balance = 50000;
-    public int PIN=1059;
+    	public int PIN=1059;
   
 }
 class ATM extends User{
