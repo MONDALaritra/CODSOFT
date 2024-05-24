@@ -59,7 +59,7 @@ class Project1{
                     Thread.sleep(1500);
                 }
                 catch(InterruptedException e){}
-                System.out.println("The actual number is:"+rand);
+               // System.out.println("The actual number is:"+rand);
                 
             }
             else{
